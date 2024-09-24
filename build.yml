@@ -1,0 +1,7 @@
+apiVersion: automation.cio/v1alpha1
+kind: RepositoryConfig
+ealImapNumber: EAL-006468
+build:
+  strategy: simple-pipeline
+  pipeline: golang-compliance
+  version: v1
